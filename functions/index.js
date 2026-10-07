@@ -1,5 +1,5 @@
 // ============================================================
-// CONFIGURAÇÃO DA PÁGINA PROTEGIDA
+// CONFIGURAÇÃO DA PÁGINA PROTEGIDA v2
 // ============================================================
 
 // Texto utilizado para gerar o token da sessão.
