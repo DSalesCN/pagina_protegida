@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <!-- Define a codificação dos caracteres -->
+    <meta charset="UTF-8">
+
+    <!-- Faz a página funcionar corretamente em celulares -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Nome que aparecerá na aba do navegador -->
+    <title>Página Protegida</title>
+
+    <style>
+
+        /* Remove as margens padrão do navegador */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Faz o HTML e o BODY ocuparem toda a tela */
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Área principal da página */
+        .pagina {
+
+            /* Ocupa toda a largura */
+            width: 100%;
+
+            /* Ocupa toda a altura */
+            min-height: 100vh;
+
+            /* Cor azul */
+            background-color: rgb(122, 122, 163);
+
+            /* Centraliza o conteúdo */
+            display: flex;
+
+            /* Centraliza horizontalmente */
+            justify-content: center;
+
+            /* Centraliza verticalmente */
+            align-items: center;
+
+        }
+
+        /* Texto de boas-vindas */
+        .mensagem {
+
+            /* Cor branca */
+            color: white;
+
+            /* Tamanho do texto */
+            font-size: 50px;
+
+            /* Negrito */
+            font-weight: bold;
+
+            /* Fonte */
+            font-family: Arial, sans-serif;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!--
+        Esta div ocupa toda a página.
+        O Cloudflare Access será responsável
+        pela autenticação antes desta página
+        ser entregue ao usuário.
+    -->
+    <div class="pagina">
+
+        <div class="mensagem">
+            BEM-VINDO
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+```
